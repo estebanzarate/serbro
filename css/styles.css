@@ -10,5 +10,83 @@
 }
 
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* HEADER */
+.header {
+    background-color: var(--blackColor);
+    display: flex;
+    align-items: center;
+}
+
+.burguer-menu {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.line-burguer-menu {
+    height: 2px;
+    background-color: var(--fourthColor);
+    border-radius: 10px;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logo {
+    max-width: 30rem;
+}
+
+.header nav {
+    display: none;
+}
+
+.header nav ul li {
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.header nav ul li:hover {
+    color: var(--fifthColor);
+}
+/* END OF HEADER */
+
+/* QUERIES */
+@media screen and (min-width: 768px) {
+    .header {
+        justify-content: space-evenly;
+    }
+    .burguer-menu {
+        display: none;
+    }
+    .logo-container {
+        width: unset;
+    }
+    .header nav {
+        display: flex;
+        align-items: center;
+    }
+    .header nav ul {
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+    }
+    .header nav ul li {
+        color: var(--fourthColor);
+        padding: 0.4rem 0.8rem;
+    }
+}
+/* END OF QUERIES */
