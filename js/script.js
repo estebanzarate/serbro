@@ -1,12 +1,11 @@
 const $carrouselContainer = document.querySelector('.carrousel-container');
 const $carrouselImgContainer = document.querySelector(
-    '.carrousel-img-container'
+    '.carrousel-img-container img'
 );
 
 // Change height carrousel container
-const changeHeight = () => {
-    $carrouselContainer.style.height = `${$carrouselImgContainer.clientHeight}px`;
-};
+const changeHeight = () =>
+    ($carrouselContainer.style.height = `${$carrouselImgContainer.clientHeight}px`);
 
 // Carrousel
 const carrousel = () => {
