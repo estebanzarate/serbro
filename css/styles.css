@@ -48,6 +48,9 @@
 
 /* HEADER */
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background-color: var(--blackColor);
     display: flex;
     align-items: center;
