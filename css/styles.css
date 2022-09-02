@@ -7,6 +7,7 @@
     --fourthColor: #f4f3f3;
     --fifthColor: #eb174b;
     --mainFont: 'Montserrat';
+    --heightCarrousel: none;
 }
 
 * {
@@ -83,9 +84,9 @@
 }
 
 .carrousel-images {
-    position: relative;
+    position: absolute;
+    top: 0;
     width: 100%;
-    min-height: 100vh;
 }
 
 .carrousel-img-container {
@@ -93,7 +94,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
     display: flex;
     visibility: hidden;
     opacity: 0;
@@ -107,7 +107,7 @@
 
 .carrousel-img-container img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .carrousel-text {

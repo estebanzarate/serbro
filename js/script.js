@@ -1,7 +1,20 @@
+const $carrouselContainer = document.querySelector('.carrousel-container');
+const $carrouselImgContainer = document.querySelector(
+    '.carrousel-img-container'
+);
+
+// Change height carrousel container
+const changeHeight = () => {
+    $carrouselContainer.style.height = `${$carrouselImgContainer.clientHeight}px`;
+};
+
+// Carrousel
 const carrousel = () => {
     const $nextBtn = document.querySelector('.arrow-right'),
-        $prevBtn = document.querySelector('.arrow-left');
-    $carrouselImages = document.querySelectorAll('.carrousel-img-container');
+        $prevBtn = document.querySelector('.arrow-left'),
+        $carrouselImages = document.querySelectorAll(
+            '.carrousel-img-container'
+        );
     let i = 0;
     document.addEventListener('click', e => {
         if (e.target === $prevBtn) {
@@ -21,6 +34,11 @@ const carrousel = () => {
     });
 };
 
+window.addEventListener('resize', () => {
+    changeHeight();
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     carrousel();
+    changeHeight();
 });
