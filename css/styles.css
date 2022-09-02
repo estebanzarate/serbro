@@ -36,6 +36,7 @@
 
 .subtitle {
     text-align: center;
+    margin: 1rem 0;
 }
 
 .line {
@@ -228,6 +229,24 @@
     line-height: 30px;
 }
 /* END OF SERVICES */
+
+/* BRANDS */
+.brands {
+    padding: 2rem 0;
+}
+
+.brands-img-container {
+    margin: 2.5rem 0 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.brands-text {
+    text-align: center;
+    line-height: 24px;
+    padding: 0 2rem;
+}
+/* END OF BRANDS */
 
 /* QUERIES */
 @media screen and (min-width: 768px) {
