@@ -251,6 +251,38 @@
 }
 /* END OF BRANDS */
 
+/* PRODUCTS */
+.products {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 765px;
+}
+
+.products-carrousel-images {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.products-img-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.products-img-container img {
+    width: 100%;
+    object-fit: contain;
+}
+/* END OF PRODUCTS */
+
 /* QUERIES */
 @media screen and (min-width: 768px) {
     /* HEADER */
