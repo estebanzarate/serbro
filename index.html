@@ -5,81 +5,100 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/styles.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
         <title>Sergio Bronstein</title>
     </head>
     <body>
         <!-- HEADER -->
-        <header class="header">
-            <div class="burguer-menu">
-                <div class="line-burguer-menu"></div>
-                <div class="line-burguer-menu"></div>
-                <div class="line-burguer-menu"></div>
-            </div>
-            <div class="logo-container">
-                <img class="logo" src="./img/header/logo.png" alt="logo" />
-            </div>
-            <nav>
-                <ul>
-                    <li>Nosotros</li>
-                    <li>Servicios</li>
-                    <li>Marcas</li>
-                    <li>Productos</li>
-                    <li>Alianzas</li>
-                    <li>Referencias</li>
-                    <li>Contacto</li>
-                </ul>
+        <header id="logo" class="container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#logo"
+                        ><img src="./img/header/logo.png" alt="logo"
+                    /></a>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavAltMarkup"
+                    >
+                        <div class="navbar-nav">
+                            <a
+                                class="nav-link"
+                                data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show"
+                                href="#nosotros"
+                                >Nosotros</a
+                            >
+                            <a
+                                class="nav-link"
+                                href="#servicios"
+                                data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show"
+                                >Servicios</a
+                            >
+                            <a
+                                class="nav-link"
+                                href="#marcas"
+                                data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show"
+                                >Marcas</a
+                            >
+                            <a
+                                class="nav-link"
+                                href="#productos"
+                                data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show"
+                                >Productos</a
+                            >
+                            <a
+                                class="nav-link"
+                                href="#alianzas"
+                                data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show"
+                                >Alianzas</a
+                            >
+                            <a
+                                class="nav-link"
+                                href="#referencias"
+                                data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show"
+                                >Referencias</a
+                            >
+                            <a
+                                class="nav-link"
+                                href="#contacto"
+                                data-bs-toggle="collapse"
+                                data-bs-target=".navbar-collapse.show"
+                                >Contacto</a
+                            >
+                        </div>
+                    </div>
+                </div>
             </nav>
         </header>
         <!-- END OF HEADER -->
 
         <!-- CARROUSEL -->
-        <section class="carrousel-container">
-            <div class="carrousel-images">
-                <div class="carrousel-img-container active">
-                    <img src="./img/header/header1phone.png" alt="header1" />
-                    <p class="carrousel-text">
-                        Máquinas para corte, deformación y mecanizado de chapa
-                    </p>
-                </div>
-                <div class="carrousel-img-container">
-                    <img src="./img/header/header2phone.png" alt="header2" />
-                    <p class="carrousel-text">
-                        Maquinas orientadas a la actividad de la metalmecánica
-                    </p>
-                </div>
-                <div class="carrousel-img-container">
-                    <img src="./img/header/header3phone.png" alt="header3" />
-                    <p class="carrousel-text">
-                        Asesoramiento global en la selección del tipo de
-                        máquina, sistemas y tecnologías que mejor se adapte a su
-                        necesidad
-                    </p>
-                </div>
-                <div class="carrousel-img-container">
-                    <img src="./img/header/header4phone.png" alt="header4" />
-                    <p class="carrousel-text">
-                        Brindamos el servicio de puesta en marcha, capacitación,
-                        mantenimiento y post venta
-                    </p>
-                </div>
-            </div>
-            <div class="carrousel-arrows">
-                <img
-                    class="carrousel-arrow arrow-left"
-                    src="./img/arrowl.png"
-                    alt="arrowl"
-                />
-                <img
-                    class="carrousel-arrow arrow-right"
-                    src="./img/arrowr.png"
-                    alt="arrowr"
-                />
-            </div>
-        </section>
+
         <!-- END OF CARROUSEL -->
 
         <!-- US -->
-        <section class="us">
+        <section id="nosotros" class="us">
             <div class="us-images">
                 <img src="./img/us/usl.png" alt="usl" />
                 <img src="./img/us/usc.png" alt="usc" />
@@ -107,7 +126,7 @@
         <!-- END OF US -->
 
         <!-- SERVICES -->
-        <section class="services">
+        <section id="servicios" class="services">
             <h2 class="title">Servicios</h2>
             <div class="line"></div>
             <div>
@@ -149,7 +168,7 @@
         <!-- END OF SERVICES -->
 
         <!-- BRANDS -->
-        <section class="brands">
+        <section id="marcas" class="brands">
             <h2 class="title">Marcas</h2>
             <div class="line"></div>
             <div>
@@ -206,8 +225,8 @@
         </section>
         <!-- END OF BRANS -->
 
-        <section class="products">
-            <div class="products-carrousel-images">
+        <section id="productos" class="products">
+            <!-- <div class="products-carrousel-images">
                 <div class="products-img-container active">
                     <img src="./img/products/product1.png" alt="product1" />
                     <h2>GH Cizalla Hidráulica</h2>
@@ -335,8 +354,12 @@
                     src="./img/arrowr.png"
                     alt="arrowr"
                 />
-            </div>
+            </div> -->
         </section>
+
+        <section id="alianzas">Alianzas</section>
+        <section id="referencias">Referencias</section>
+        <section id="contacto">Contacto</section>
 
         <footer></footer>
         <script
