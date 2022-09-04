@@ -40,7 +40,7 @@ body {
 .line {
     width: 5rem;
     height: 2px;
-    margin: 0 auto;
+    margin: 0 auto 1.5rem;
     background-color: var(--fifthColor);
 }
 
@@ -131,6 +131,29 @@ body {
 
 /* PRODUCTS */
 /* END OF PRODUCTS */
+
+/* NUESTRAS VENTAJAS */
+.nuestras-ventajas {
+    background-color: var(--secondColor);
+    padding: 2rem;
+    color: var(--fourthColor);
+}
+
+.nuestras-ventajas div:nth-child(3) {
+    text-align: center;
+}
+
+.nuestras-ventajas div:nth-child(3) p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuestras-ventajas div:nth-child(3) p span {
+    color: var(--fifthColor);
+    margin-right: 0.5rem;
+}
+/* END OF NUESTRAS VENTAJAS */
 
 /* FOOTER */
 .footer {
