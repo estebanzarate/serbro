@@ -10,7 +10,6 @@
 }
 
 body {
-    position: relative;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -25,8 +24,9 @@ body {
     border-radius: 10px;
 }
 
-section {
-    scroll-padding-top: 56px;
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 55px;
 }
 
 .title {
@@ -69,6 +69,19 @@ section {
 
 .carousel-header {
     margin-top: 56px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background: unset;
+    width: unset;
+    height: unset;
+    display: flex;
+}
+
+.bi-chevron-right,
+.bi-chevron-left {
+    font-size: 3rem;
 }
 
 .carousel-img-header {
