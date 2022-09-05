@@ -45,6 +45,15 @@ body {
 }
 
 /* HEADER */
+.carousel-header {
+    margin-top: 56px;
+}
+
+.carousel-header .carousel-text {
+    background-color: #eb174c9a;
+    top: 2rem;
+    padding: 2rem;
+}
 /* END OF HEADER */
 
 /* CARROUSEL */
@@ -135,7 +144,6 @@ body {
 }
 
 .carousel-products .carousel-item {
-    max-height: max-content;
     padding: 2rem;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
