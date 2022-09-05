@@ -4,7 +4,7 @@
     --blackColor: #000;
     --secondColor: #262525;
     --thirdColor: #484646;
-    --fourthColor: #f4f3f3;
+    --fourthColor: #f3f2f2;
     --fifthColor: #eb174b;
     --mainFont: 'Montserrat';
 }
@@ -130,6 +130,20 @@ body {
 /* END OF BRANDS */
 
 /* PRODUCTS */
+.carousel-products .carousel-inner {
+    padding: 2rem;
+}
+
+.carousel-products .carousel-item {
+    max-height: max-content;
+    padding: 2rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-products .carousel-item p,
+h2 {
+    text-align: center;
+}
 /* END OF PRODUCTS */
 
 /* ALIANZAS */
