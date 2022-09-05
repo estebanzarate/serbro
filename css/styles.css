@@ -383,4 +383,15 @@ input[type='submit'] {
         align-items: center;
         justify-content: center;
     }
+    .carousel-indicators [data-bs-target] {
+        width: 0.5rem;
+        height: 0.5rem;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background-color: transparent;
+        background-clip: unset;
+    }
+    .carousel-indicators [data-bs-target]:focus {
+        background-color: #fff;
+    }
 }
