@@ -132,7 +132,7 @@ html {
     object-fit: cover;
 }
 
-.text-us {
+.us-text {
     background-color: rgba(0, 0, 0, 0.65);
     position: absolute;
     top: 0;
@@ -147,11 +147,11 @@ html {
     justify-content: center;
 }
 
-.title-us {
+.us-title {
     color: var(--fourthColor);
 }
 
-.text-us p {
+.us-text p {
     margin: 1rem 0;
     line-height: 1.8rem;
 }
@@ -393,5 +393,23 @@ input[type='submit'] {
     }
     .carousel-indicators [data-bs-target]:focus {
         background-color: #fff;
+    }
+    .us-images {
+        width: 100%;
+        flex-wrap: unset;
+        z-index: -10;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .us-images img {
+        max-height: unset;
+        object-fit: unset;
+    }
+    .us-text p {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .us-text p:nth-child(3) {
+        margin-bottom: 2rem;
     }
 }
