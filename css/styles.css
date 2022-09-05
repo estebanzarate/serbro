@@ -50,6 +50,10 @@ section {
 }
 
 /* HEADER */
+.navbar-collapse {
+    flex-grow: unset;
+}
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
