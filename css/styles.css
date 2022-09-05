@@ -9,6 +9,11 @@
     --mainFont: 'Montserrat';
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 55px;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -22,11 +27,6 @@ body {
     background-color: var(--blackColor);
     width: 6px;
     border-radius: 10px;
-}
-
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 55px;
 }
 
 .title {
@@ -50,10 +50,6 @@ html {
 }
 
 /* HEADER */
-.navbar-collapse {
-    flex-grow: unset;
-}
-
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
