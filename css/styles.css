@@ -132,6 +132,42 @@ body {
 /* PRODUCTS */
 /* END OF PRODUCTS */
 
+/* CONTACTANOS */
+.contactanos {
+    padding: 2rem;
+    background-color: var(--fourthColor);
+}
+
+.contactanos form div {
+    margin: 0.5rem 0;
+}
+
+.contactanos form div input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+.contactanos form div textarea {
+    resize: none;
+}
+
+.contactanos form div:last-child {
+    text-align: center;
+}
+
+input[type='submit'] {
+    background-color: var(--blackColor);
+    color: var(--fourthColor);
+    border-radius: 20px;
+    padding: 0.2rem 2rem;
+}
+/* END OF CONTACTANOS */
+
 /* NUESTRAS VENTAJAS */
 .nuestras-ventajas {
     background-color: var(--secondColor);
