@@ -192,6 +192,10 @@ html {
 /* END OF BRANDS */
 
 /* PRODUCTS */
+.carousel-products {
+    padding-top: 2rem;
+}
+
 .carousel-products .carousel-inner {
     padding: 2rem;
 }
