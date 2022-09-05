@@ -132,6 +132,46 @@ body {
 /* PRODUCTS */
 /* END OF PRODUCTS */
 
+/* REFERENCIAS */
+.referencias {
+    padding: 2rem;
+}
+
+.referencia-container {
+    margin: 1rem 0;
+    padding: 2rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.referencia-container div {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.referencia-container p {
+    text-align: center;
+    font-style: italic;
+}
+
+.referencia-container h5 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.referencia-container .line {
+    margin: 1.5rem auto;
+}
+
+.ref-brand img {
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid;
+    border-radius: 50%;
+    object-fit: contain;
+}
+/* END OF REFERENCIAS */
+
 /* CONTACTANOS */
 .contactanos {
     padding: 2rem;
