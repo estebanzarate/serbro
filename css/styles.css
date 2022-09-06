@@ -302,11 +302,7 @@ body {
     background-color: var(--fourthColor);
 }
 
-.contactanos form div {
-    margin: 0.5rem 0;
-}
-
-.contactanos form div input[type='text'],
+input[type='text'],
 input[type='email'],
 input[type='tel'],
 textarea {

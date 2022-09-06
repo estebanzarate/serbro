@@ -931,7 +931,7 @@
             <section id="referencias" class="referencias">
                 <h2 class="title">Referencias</h2>
                 <div class="line"></div>
-                <div class="d-sm-flex">
+                <div class="d-lg-flex">
                     <div class="referencia-container">
                         <div>
                             <img src="./img/comillas.png" alt="comillas" />
@@ -995,31 +995,43 @@
             <section id="contacto" class="contactanos">
                 <h2 class="title">Contactanos</h2>
                 <div class="line"></div>
-                <form>
-                    <div>
-                        <input type="text" placeholder="Nombre" required />
+                <form class="container">
+                    <div class="row offset-lg-3">
+                        <div class="col-lg-4 my-2">
+                            <input type="text" placeholder="Nombre" required />
+                        </div>
+                        <div class="col-lg-4 my-2">
+                            <input
+                                type="text"
+                                placeholder="Apellido"
+                                required
+                            />
+                        </div>
                     </div>
-                    <div>
-                        <input type="text" placeholder="Apellido" required />
+                    <div class="row offset-lg-3">
+                        <div class="col-lg-4 my-2">
+                            <input type="email" placeholder="E-mail" required />
+                        </div>
+                        <div class="col-lg-4 my-2">
+                            <input type="tel" placeholder="Teléfono" required />
+                        </div>
                     </div>
-                    <div>
-                        <input type="email" placeholder="E-mail" required />
+                    <div class="row offset-lg-3">
+                        <div class="col-lg-4 my-2">
+                            <input type="text" placeholder="País" required />
+                        </div>
+                        <div class="col-lg-4 my-2">
+                            <input type="text" placeholder="Ciudad" required />
+                        </div>
                     </div>
-                    <div>
-                        <input type="tel" placeholder="Teléfono" required />
-                    </div>
-                    <div>
-                        <input type="text" placeholder="País" required />
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Ciudad" required />
-                    </div>
-                    <div>
-                        <textarea
-                            rows="5"
-                            placeholder="Consulta"
-                            required
-                        ></textarea>
+                    <div class="row offset-lg-3">
+                        <div class="col-lg-8 my-2">
+                            <textarea
+                                rows="5"
+                                placeholder="Consulta"
+                                required
+                            ></textarea>
+                        </div>
                     </div>
                     <div>
                         <input type="submit" value="ENVIAR" />
