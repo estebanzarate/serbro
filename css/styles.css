@@ -335,19 +335,9 @@ input[type='submit'] {
     color: var(--fourthColor);
 }
 
-.nuestras-ventajas div:nth-child(3) {
-    text-align: center;
-}
-
-.nuestras-ventajas div:nth-child(3) p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nuestras-ventajas div:nth-child(3) p span {
+.bar {
+    margin: 0 10px;
     color: var(--fifthColor);
-    margin-right: 0.5rem;
 }
 /* END OF NUESTRAS VENTAJAS */
 
