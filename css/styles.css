@@ -194,19 +194,37 @@ body {
     padding-top: 2rem;
 }
 
-.carousel-products .carousel-inner {
-    padding: 2rem;
+.card {
+    padding: 1rem;
+    border: none;
+    border-radius: unset;
 }
 
-.carousel-products .carousel-item {
-    padding: 2rem;
+#productos-carousel2 .carousel-item .card {
+    max-width: 500px;
+    height: 600px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-.carousel-products .carousel-item p,
-h2 {
+#productos-carousel2 .card-img-container {
+    padding: 1rem;
+    width: 100%;
+}
+
+#productos-carousel2 .card-img-container img {
+    width: 100%;
+}
+
+#productos-carousel2 .card-title,
+.card-text {
     text-align: center;
 }
+
+#productos-carousel2 .card-text {
+    font-size: clamp(0.8rem, 1rem, 1.5rem);
+    flex-shrink: 2;
+}
+
 /* END OF PRODUCTS */
 
 /* ALIANZAS */
