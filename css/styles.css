@@ -262,7 +262,7 @@ body {
 }
 
 .referencia-container {
-    margin: 1rem 0;
+    margin: 1rem 0.5rem;
     padding: 2rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
