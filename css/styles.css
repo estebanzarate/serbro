@@ -203,9 +203,25 @@ body {
     border-radius: unset;
 }
 
-#productos-carousel2 .carousel-item .card {
-    max-width: 500px;
-    height: 650px;
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+#productos-carousel1 .card {
+    width: calc(100% / 3);
+}
+
+#productos-carousel1 .carousel-item .card {
+    margin: 0 1rem;
+}
+
+#productos-carousel1 .carousel-inner .cards-container {
+    margin: 1rem;
+}
+
+#productos-carousel2 .carousel-item .card,
+#productos-carousel1 .carousel-item .card {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -216,11 +232,6 @@ body {
 
 #productos-carousel2 .card-img-container img {
     width: 100%;
-}
-
-#productos-carousel2 .card-title,
-.card-text {
-    text-align: center;
 }
 
 #productos-carousel2 .card-text {
