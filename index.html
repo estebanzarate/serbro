@@ -1005,14 +1005,25 @@
             <section id="contacto" class="contactanos">
                 <h2 class="title">Contactanos</h2>
                 <div class="line"></div>
-                <form class="container">
+                <form
+                    id="form"
+                    class="container"
+                    action="https://formsubmit.co/Sergio.Bronstein@gmail.com"
+                    method="POST"
+                >
                     <div class="row offset-lg-3">
                         <div class="col-lg-4 my-2">
-                            <input type="text" placeholder="Nombre" required />
+                            <input
+                                type="text"
+                                name="Nombre"
+                                placeholder="Nombre"
+                                required
+                            />
                         </div>
                         <div class="col-lg-4 my-2">
                             <input
                                 type="text"
+                                name="Apellido"
                                 placeholder="Apellido"
                                 required
                             />
@@ -1020,24 +1031,45 @@
                     </div>
                     <div class="row offset-lg-3">
                         <div class="col-lg-4 my-2">
-                            <input type="email" placeholder="E-mail" required />
+                            <input
+                                type="email"
+                                name="Email"
+                                placeholder="Email"
+                                required
+                            />
                         </div>
                         <div class="col-lg-4 my-2">
-                            <input type="tel" placeholder="Teléfono" required />
+                            <input
+                                type="tel"
+                                name="Teléfono"
+                                placeholder="Teléfono"
+                                required
+                            />
                         </div>
                     </div>
                     <div class="row offset-lg-3">
                         <div class="col-lg-4 my-2">
-                            <input type="text" placeholder="País" required />
+                            <input
+                                type="text"
+                                name="País"
+                                placeholder="País"
+                                required
+                            />
                         </div>
                         <div class="col-lg-4 my-2">
-                            <input type="text" placeholder="Ciudad" required />
+                            <input
+                                type="text"
+                                name="Ciudad"
+                                placeholder="Ciudad"
+                                required
+                            />
                         </div>
                     </div>
                     <div class="row offset-lg-3">
                         <div class="col-lg-8 my-2">
                             <textarea
                                 rows="5"
+                                name="Mensaje"
                                 placeholder="Consulta"
                                 required
                             ></textarea>
