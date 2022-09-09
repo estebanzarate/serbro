@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/* ROOT */
 :root {
     --blackColor: #000;
     --secondColor: #262525;
@@ -8,7 +9,9 @@
     --fifthColor: #eb174b;
     --mainFont: 'Montserrat';
 }
-
+/* END OF ROOT */
+/* -------------------------------------------------- */
+/* GLOBALS */
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 55px;
@@ -63,7 +66,8 @@ body {
     height: 100%;
     object-fit: contain;
 }
-
+/* END OF GLOBALS */
+/* -------------------------------------------------- */
 /* HEADER */
 .navbar-toggler,
 .navbar-toggler:focus,
@@ -110,26 +114,26 @@ body {
 }
 /* END OF HEADER */
 
-/* US */
-.us {
+/* NOSOTROS */
+.nosotros {
     position: relative;
     height: 100%;
 }
 
-.us-images {
+.nosotros-images {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     z-index: -10;
 }
 
-.us-images img {
+.nosotros-images img {
     width: 100%;
     max-height: 250px;
     object-fit: cover;
 }
 
-.us-text {
+.nosotros-text {
     background-color: rgba(0, 0, 0, 0.65);
     position: absolute;
     top: 0;
@@ -144,56 +148,56 @@ body {
     justify-content: center;
 }
 
-.us-title {
+.nosotros-title {
     color: var(--fourthColor);
 }
 
-.us-text p {
+.nosotros-text p {
     margin: 1rem 0;
     line-height: 1.8rem;
 }
-/* END OF US */
+/* END OF NOSOTROS */
 
-/* SERVICES */
-.services {
+/* SERVICIOS */
+.servicios {
     padding: 2rem;
 }
 
-.services-img-container {
+.servicios-img-container {
     margin: 2rem 0 1rem;
     display: flex;
     justify-content: center;
 }
 
-.services-img-container img {
+.servicios-img-container img {
     height: 80px;
 }
 
-.services-text {
+.servicios-text {
     text-align: center;
     line-height: 30px;
 }
-/* END OF SERVICES */
+/* END OF SERVICIOS */
 
-/* BRANDS */
-.brands {
+/* MARCAS */
+.marcas {
     padding: 2rem 0;
 }
 
-.brands-img-container {
+.marcas-img-container {
     margin: 2.5rem 0 1.5rem;
     display: flex;
     justify-content: center;
 }
 
-.brands-text {
+.marcas-text {
     text-align: center;
     line-height: 24px;
 }
-/* END OF BRANDS */
+/* END OF MARCAS */
 
-/* PRODUCTS */
-.carousel-products {
+/* PRODUCTOS */
+.productos-carousel {
     padding-top: 2rem;
 }
 
@@ -239,7 +243,7 @@ body {
     flex-shrink: 2;
 }
 
-/* END OF PRODUCTS */
+/* END OF PRODUCTOS */
 
 /* ALIANZAS */
 .alianzas {
@@ -375,6 +379,7 @@ input[type='submit'] {
 }
 /* END OF FOOTER */
 
+/* QUERIES */
 @media screen and (min-width: 768px) {
     .carousel-header-img {
         background-position: 50%;
@@ -414,22 +419,22 @@ input[type='submit'] {
     .carousel-indicators [data-bs-target]:focus {
         background-color: #fff;
     }
-    .us-images {
+    .nosotros-images {
         width: 100%;
         flex-wrap: unset;
         z-index: -10;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .us-images img {
+    .nosotros-images img {
         max-height: unset;
         object-fit: unset;
     }
-    .us-text p {
+    .nosotros-text p {
         max-width: 900px;
         margin: 0 auto;
     }
-    .us-text p:nth-child(3) {
+    .nosotros-text p:nth-child(3) {
         margin-bottom: 2rem;
     }
     .alianzas-container article div {
@@ -437,3 +442,4 @@ input[type='submit'] {
         height: 10rem;
     }
 }
+/* END OF QUERIES */
