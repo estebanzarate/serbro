@@ -357,6 +357,10 @@ input[type='submit'] {
     margin: 0 10px;
     color: var(--fifthColor);
 }
+
+.ventaja {
+    font-size: clamp(0.7rem, 2vw, 1rem);
+}
 /* END OF NUESTRAS VENTAJAS */
 
 /* FOOTER */
