@@ -359,7 +359,7 @@ input[type='submit'] {
 }
 
 .ventaja {
-    font-size: clamp(0.7rem, 2vw, 1rem);
+    font-size: clamp(0.7rem, 3vw, 1rem);
 }
 /* END OF NUESTRAS VENTAJAS */
 
