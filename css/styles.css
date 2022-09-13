@@ -69,6 +69,14 @@ body {
 /* END OF GLOBALS */
 /* -------------------------------------------------- */
 /* HEADER */
+.navbar-logo {
+    width: 18rem;
+}
+
+.navbar-logo img {
+    width: 100%;
+}
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
