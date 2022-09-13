@@ -194,6 +194,7 @@ body {
 .marcas .card {
     padding: 1rem;
     border: none;
+    border-radius: unset;
 }
 
 .marca:hover {
@@ -288,10 +289,6 @@ body {
 .alianzas-container article div img {
     width: 100%;
     object-fit: contain;
-}
-
-.referencias {
-    margin: 3rem 0;
 }
 
 .referencias .card-group {
