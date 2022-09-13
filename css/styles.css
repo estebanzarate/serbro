@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* ROOT */
 :root {
     --blackColor: #000;
     --secondColor: #262525;
@@ -9,9 +8,7 @@
     --fifthColor: #eb174b;
     --mainFont: 'Montserrat';
 }
-/* END OF ROOT */
-/* -------------------------------------------------- */
-/* GLOBALS */
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 55px;
@@ -66,9 +63,7 @@ body {
     height: 100%;
     object-fit: contain;
 }
-/* END OF GLOBALS */
-/* -------------------------------------------------- */
-/* HEADER */
+
 .navbar-logo {
     width: 18rem;
 }
@@ -120,9 +115,7 @@ body {
     background-color: #eb174c9a;
     padding: 2rem;
 }
-/* END OF HEADER */
 
-/* NOSOTROS */
 .nosotros {
     position: relative;
     height: 100%;
@@ -164,9 +157,7 @@ body {
     margin: 1rem 0;
     line-height: 1.8rem;
 }
-/* END OF NOSOTROS */
 
-/* SERVICIOS */
 .servicios {
     padding: 2rem;
 }
@@ -185,9 +176,7 @@ body {
     text-align: center;
     line-height: 30px;
 }
-/* END OF SERVICIOS */
 
-/* MARCAS */
 .marcas .card {
     border: none;
 }
@@ -206,9 +195,7 @@ body {
 .marcas .card .card-body .card-text {
     text-align: center;
 }
-/* END OF MARCAS */
 
-/* PRODUCTOS */
 .productos-carousel {
     padding-top: 2rem;
 }
@@ -251,9 +238,6 @@ body {
     flex-shrink: 2;
 }
 
-/* END OF PRODUCTOS */
-
-/* ALIANZAS */
 .alianzas {
     padding: 2rem;
 }
@@ -280,9 +264,7 @@ body {
     width: 100%;
     object-fit: contain;
 }
-/* END OF ALIANZAS */
 
-/* REFERENCIAS */
 .referencias {
     margin: 3rem 0;
 }
@@ -330,9 +312,7 @@ body {
     border-radius: 50%;
     object-fit: contain;
 }
-/* END OF REFERENCIAS */
 
-/* CONTACTANOS */
 .contactanos {
     padding: 2rem;
     background-color: var(--fourthColor);
@@ -362,9 +342,7 @@ input[type='submit'] {
     border-radius: 20px;
     padding: 0.2rem 2rem;
 }
-/* END OF CONTACTANOS */
 
-/* NUESTRAS VENTAJAS */
 .nuestras-ventajas {
     background-color: var(--secondColor);
     padding: 2rem;
@@ -384,9 +362,7 @@ input[type='submit'] {
     text-align: center;
     font-size: clamp(0.7rem, 3vw, 1rem);
 }
-/* END OF NUESTRAS VENTAJAS */
 
-/* FOOTER */
 .footer {
     background-color: var(--blackColor);
     padding: 2rem;
@@ -404,9 +380,7 @@ input[type='submit'] {
 .footer div img {
     margin-right: 0.5rem;
 }
-/* END OF FOOTER */
 
-/* QUERIES */
 @media screen and (min-width: 768px) {
     .carousel-header-img {
         background-position: 50%;
@@ -469,4 +443,3 @@ input[type='submit'] {
         height: 10rem;
     }
 }
-/* END OF QUERIES */
