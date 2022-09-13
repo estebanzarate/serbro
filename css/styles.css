@@ -339,6 +339,7 @@ textarea {
 input[type='submit'] {
     background-color: var(--blackColor);
     color: var(--fourthColor);
+    border: none;
     border-radius: 20px;
     padding: 0.2rem 2rem;
 }
