@@ -134,7 +134,7 @@ body {
 }
 
 .nosotros-text {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -201,14 +201,14 @@ body {
     padding-top: 2rem;
 }
 
-.card {
+.productos-carousel .card {
     padding: 1rem;
     border: none;
     border-radius: unset;
 }
 
-.card-title,
-.card-text {
+.productos-carousel .card-title,
+.productos-carousel .card-text {
     text-align: center;
 }
 
@@ -218,10 +218,6 @@ body {
 
 #productos-carousel1 .carousel-item .card {
     margin: 0 1rem;
-}
-
-#productos-carousel1 .carousel-inner .cards-container {
-    margin: 1rem;
 }
 
 #productos-carousel2 .carousel-item .card,
@@ -283,9 +279,12 @@ body {
     display: unset;
 }
 
-.referencia-container {
-    margin: 1rem 0.8rem;
+.referencias .card {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    margin: 1rem 0.8rem;
+    padding: 1rem;
+    border: none;
+    border-radius: unset;
 }
 
 .referencia-container div {
@@ -302,6 +301,7 @@ body {
 }
 
 .referencias .card-title {
+    text-align: center;
     font-size: 1rem;
     font-weight: 700;
 }
