@@ -363,6 +363,7 @@ input[type='submit'] {
 }
 
 .ventaja {
+    text-align: center;
     font-size: clamp(0.7rem, 3vw, 1rem);
 }
 /* END OF NUESTRAS VENTAJAS */
