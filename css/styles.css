@@ -256,7 +256,8 @@ body {
 }
 
 #productos-carousel2 .card-img-container img {
-    width: 100%;
+    max-width: 60%;
+    margin-inline: auto;
 }
 
 #productos-carousel2 .card-text {
