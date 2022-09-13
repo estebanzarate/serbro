@@ -96,12 +96,13 @@ body {
 }
 
 .header-carousel {
+    min-height: 100vh;
     padding-top: 56px;
 }
 
 .carousel-header-img {
     background-size: cover;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .carousel-header-img1 {
