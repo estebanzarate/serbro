@@ -21,7 +21,6 @@ body {
 #nosotros,
 #servicios,
 #marcas,
-#productos,
 #alianzas,
 #referencias,
 #contacto {
@@ -211,11 +210,17 @@ body {
     text-align: center;
 }
 
+.cards-container,
+#productos-carousel2 .carousel-item {
+    height: 40rem;
+}
+
 .productos-carousel {
     padding-top: 2rem;
 }
 
 .productos-carousel .card {
+    height: 100%;
     padding: 1rem;
     border: none;
     border-radius: unset;
