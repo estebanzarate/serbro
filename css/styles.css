@@ -188,19 +188,23 @@ body {
 /* END OF SERVICIOS */
 
 /* MARCAS */
-.marcas {
-    padding: 2rem 0;
+.marcas .card {
+    border: none;
 }
 
-.marcas-img-container {
-    margin: 2.5rem 0 1.5rem;
-    display: flex;
-    justify-content: center;
+.marcas .marcas-img-container {
+    width: 10rem;
+    margin-inline: auto;
 }
 
-.marcas-text {
+.marcas .marcas-img-container img {
+    width: 100%;
+    height: 3rem;
+    object-fit: contain;
+}
+
+.marcas .card .card-body .card-text {
     text-align: center;
-    line-height: 24px;
 }
 /* END OF MARCAS */
 
