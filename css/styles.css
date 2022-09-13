@@ -18,6 +18,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#nosotros,
+#servicios,
+#marcas,
+#productos,
+#alianzas,
+#referencias,
+#contacto {
+    min-height: 60vh;
+}
+
 ::-webkit-scrollbar {
     background-color: var(--fifthColor);
     width: 10px;
