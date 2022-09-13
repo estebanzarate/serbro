@@ -192,7 +192,12 @@ body {
 }
 
 .marcas .card {
+    padding: 1rem;
     border: none;
+}
+
+.marca:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .marcas .marcas-img-container {
