@@ -276,18 +276,20 @@ body {
 
 /* REFERENCIAS */
 .referencias {
-    padding: 2rem;
+    margin: 3rem 0;
+}
+
+.referencias .card-group {
+    display: unset;
 }
 
 .referencia-container {
-    margin: 1rem 0.5rem;
-    padding: 2rem;
+    margin: 1rem 0.8rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .referencia-container div {
     text-align: center;
-    margin: 0.5rem 0;
 }
 
 .referencia-img-container img {
@@ -299,13 +301,13 @@ body {
     font-style: italic;
 }
 
-.referencia-container h5 {
-    text-align: center;
+.referencias .card-title {
+    font-size: 1rem;
     font-weight: 700;
 }
 
 .referencia-container .line {
-    margin: 1.5rem auto;
+    margin: 1rem auto;
 }
 
 .ref-brand img {
