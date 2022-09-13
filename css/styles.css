@@ -353,6 +353,10 @@ input[type='submit'] {
     color: var(--fourthColor);
 }
 
+.ventajas-title {
+    color: var(--fourthColor);
+}
+
 .bar {
     margin: 0 10px;
     color: var(--fifthColor);
