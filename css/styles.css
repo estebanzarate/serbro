@@ -96,7 +96,6 @@ body {
 
 .header-carousel {
     min-height: 100vh;
-    padding-top: 56px;
 }
 
 .carousel-header-img {
@@ -124,6 +123,7 @@ body {
     top: 2rem;
     background-color: #eb174c9a;
     padding: 2rem;
+    margin-top: 56px;
 }
 
 .nosotros {
