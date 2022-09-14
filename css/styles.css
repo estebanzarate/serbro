@@ -273,19 +273,14 @@ body {
 }
 
 .alianzas {
-    padding: 2rem;
+    background-color: var(--fourthColor);
 }
 
-.alianzas-container {
-    display: flex;
-    flex-wrap: wrap;
+.alianzas-container article p {
+    max-width: 12rem;
 }
 
-.alianzas-container article {
-    padding: 1rem;
-}
-
-.alianzas-container article div {
+.alianza-img-container {
     max-width: 10rem;
     max-height: 10rem;
     display: flex;
@@ -294,8 +289,9 @@ body {
     margin: 0 auto;
 }
 
-.alianzas-container article div img {
+.alianza-img-container img {
     width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
