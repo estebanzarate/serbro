@@ -443,17 +443,6 @@ input[type='submit'] {
     .carousel-indicators [data-bs-target]:focus {
         background-color: #fff;
     }
-    .nosotros-images {
-        width: 100%;
-        flex-wrap: unset;
-        z-index: -10;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .nosotros-images img {
-        max-height: unset;
-        object-fit: unset;
-    }
     .nosotros-text p {
         max-width: 900px;
         margin: 0 auto;
@@ -464,5 +453,19 @@ input[type='submit'] {
     .alianzas-container article div {
         width: 10rem;
         height: 10rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .nosotros-images {
+        width: 100%;
+        flex-wrap: unset;
+        z-index: -10;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .nosotros-images img {
+        max-height: unset;
+        object-fit: unset;
     }
 }
