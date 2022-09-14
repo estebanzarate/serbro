@@ -94,8 +94,12 @@ body {
     transition: height 0.3s ease;
 }
 
+.nav-link {
+    transition: color 0.3s ease;
+}
+
 .nav-link:hover {
-    color: var(--fifthColor);
+    color: #f3f2f2;
 }
 
 .header-carousel {
