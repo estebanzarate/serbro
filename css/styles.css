@@ -74,7 +74,7 @@ body {
 }
 
 .navbar-logo {
-    width: 18rem;
+    width: clamp(13rem, 25vw, 18rem);
 }
 
 .navbar-logo img {
