@@ -177,7 +177,7 @@ body {
 }
 
 .servicio:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #ececec;
 }
 
 .servicios-img-container {
@@ -202,7 +202,7 @@ body {
 }
 
 .marca:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #ececec;
 }
 
 .marcas .marcas-img-container {
