@@ -22,7 +22,8 @@ body {
 #servicios,
 #marcas,
 #referencias,
-#contacto {
+#contacto,
+#title-above-footer {
     min-height: 60vh;
 }
 
