@@ -427,7 +427,7 @@ input[type='submit'] {
 
 .nuestras-ventajas {
     background-color: var(--secondColor);
-    padding: 2rem;
+    padding: 2rem 1rem;
     color: var(--fourthColor);
 }
 
@@ -442,7 +442,7 @@ input[type='submit'] {
 
 .ventaja {
     text-align: center;
-    font-size: clamp(0.7rem, 3vw, 1rem);
+    font-size: clamp(0.9rem, 3vw, 1rem);
 }
 
 .footer {
