@@ -271,6 +271,10 @@ body {
     text-align: center;
 }
 
+.productos {
+    margin: 2rem 0rem 6rem;
+}
+
 .cards-container,
 #productos-carousel2 .carousel-item {
     height: 40rem;
@@ -306,7 +310,6 @@ body {
 }
 
 #productos-carousel2 .card-img-container {
-    padding: 1rem;
     width: 100%;
 }
 
@@ -315,8 +318,17 @@ body {
     margin-inline: auto;
 }
 
+.productos-carousel .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 #productos-carousel1 .card-text {
     font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+#productos-carousel2 .card-text {
+    padding: 1rem;
 }
 
 .alianzas {
