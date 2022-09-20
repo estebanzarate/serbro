@@ -213,7 +213,8 @@ body {
 }
 
 .servicios {
-    padding: 6rem 2rem;
+    padding-top: 2rem;
+    padding-inline: 2rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -240,6 +241,10 @@ body {
 .servicios-text {
     text-align: center;
     line-height: 30px;
+}
+
+.marcas {
+    padding-top: 2rem;
 }
 
 .marcas .card {
