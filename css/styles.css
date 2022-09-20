@@ -111,36 +111,63 @@ body {
     color: #f3f2f2;
 }
 
-.header-carousel {
+.header-carousel .carousel-inner .carousel-item {
     min-height: 100vh;
-}
-
-.carousel-header-img {
+    background: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    background-position: center;
 }
 
-.carousel-header-img1 {
+#carousel-header-img1 {
     background-image: url('../img/header/header1phone.png');
 }
 
-.carousel-header-img2 {
+#carousel-header-img2 {
     background-image: url('../img/header/header2phone.png');
 }
 
-.carousel-header-img3 {
+#carousel-header-img3 {
     background-image: url('../img/header/header3phone.png');
 }
 
-.carousel-header-img4 {
+#carousel-header-img4 {
     background-image: url('../img/header/header4phone.png');
 }
 
-.header-carousel .carousel-text {
-    top: 2rem;
-    background-color: #eb174c9a;
-    padding: 2rem;
-    margin-top: 56px;
+.header-carousel .carousel-item {
+    isolation: isolate;
+    color: #fff;
+}
+
+.header-carousel .carousel-text-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    width: 530px;
+    min-height: 100vh;
+    position: relative;
+    line-height: 46px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-carousel .carousel-text-container {
+        width: 100%;
+        min-height: 100%;
+        margin-left: unset;
+        margin-top: 8rem;
+        padding: 2rem;
+    }
+}
+
+.header-carousel .carousel-text-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: #eb173a;
+    mix-blend-mode: multiply;
 }
 
 .nosotros {
@@ -414,33 +441,22 @@ input[type='submit'] {
 }
 
 @media screen and (min-width: 768px) {
-    .carousel-header-img {
-        background-position: 50%;
-    }
-    .carousel-header-img1 {
+    #carousel-header-img1 {
         background-image: url('../img/header/header1.png');
     }
 
-    .carousel-header-img2 {
+    #carousel-header-img2 {
         background-image: url('../img/header/header2.png');
     }
 
-    .carousel-header-img3 {
+    #carousel-header-img3 {
         background-image: url('../img/header/header3.png');
     }
 
-    .carousel-header-img4 {
+    #carousel-header-img4 {
         background-image: url('../img/header/header4.png');
     }
-    .header-carousel .carousel-text {
-        top: 0;
-        left: 10rem;
-        width: 30rem;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+
     .carousel-indicators [data-bs-target] {
         width: 0.5rem;
         height: 0.5rem;
