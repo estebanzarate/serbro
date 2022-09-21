@@ -457,7 +457,7 @@ input[type='submit'] {
 
 .footer {
     background-color: var(--blackColor);
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 
 .footer div {
@@ -466,6 +466,7 @@ input[type='submit'] {
 }
 
 .footer div span {
+    font-size: 0.9rem;
     color: var(--fourthColor);
 }
 
