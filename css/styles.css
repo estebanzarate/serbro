@@ -342,6 +342,10 @@ body {
     }
 }
 
+.alianzas-container article .card-body {
+    padding: 0;
+}
+
 .alianzas-container article p {
     max-width: 12rem;
     font-size: 0.9rem;
@@ -353,8 +357,8 @@ body {
 }
 
 .card-img-top img {
-    max-width: 12rem;
-    height: 4rem;
+    max-width: 15rem;
+    height: 5rem;
     object-fit: contain;
     padding-inline: 1rem;
 }
