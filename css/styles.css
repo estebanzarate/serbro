@@ -214,13 +214,16 @@ body {
 
 .servicios {
     padding-top: 2rem;
-    padding-inline: 2rem;
 }
 
 @media screen and (min-width: 992px) {
     .servicio {
         width: 50%;
     }
+}
+
+.servicio {
+    padding: 2rem;
 }
 
 .servicio:hover {
