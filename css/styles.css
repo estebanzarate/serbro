@@ -318,7 +318,7 @@ body {
 
 .cards-container,
 #productos-carousel2 .carousel-item {
-    height: 40rem;
+    height: 34rem;
 }
 
 .productos-carousel {
@@ -350,25 +350,36 @@ body {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-#productos-carousel2 .card-img-container {
-    width: 100%;
-}
-
-#productos-carousel2 .card-img-container img {
-    max-width: 60%;
+#productos-carousel2 .carousel-item .card {
+    max-width: 25rem;
     margin-inline: auto;
 }
 
+#productos-carousel2 .card-img-container {
+    width: 90%;
+    margin-inline: auto;
+}
+
+#productos-carousel2 .card-img-container img {
+    width: 100%;
+    object-fit: contain;
+}
+
 .productos-carousel .card-title {
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.2rem);
     font-weight: 700;
 }
 
+.productos-carousel .line {
+    margin-bottom: 1rem;
+}
+
 #productos-carousel1 .card-text {
-    font-size: clamp(0.8rem, 2vw, 1rem);
+    font-size: clamp(0.7rem, 2vw, 0.9rem);
 }
 
 #productos-carousel2 .card-text {
+    font-size: clamp(0.9rem, 2vw, 1rem);
     padding: 1rem;
 }
 
