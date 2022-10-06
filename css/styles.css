@@ -21,8 +21,7 @@ body {
 #nosotros,
 #servicios,
 #marcas,
-#referencias,
-#contacto {
+#referencias {
     min-height: 60vh;
 }
 
