@@ -11,16 +11,13 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="./css/styles.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
         <title>Sergio Bronstein</title>
     </head>
     <body id="logo">
         <header class="fixed-top">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid justify-content-lg-evenly">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid justify-content-lg-around">
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -32,22 +29,17 @@
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand navbar-logo mx-auto" href="#logo">
+                    <a class="navbar-brand navbar-logo mx-auto mx-lg-0" href="#logo">
                         <img src="./img/header/logo.png" alt="logo" />
                     </a>
-                    <div
-                        class="collapse navbar-collapse flex-grow-0"
-                        id="navbarNavAltMarkup"
-                    >
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link" href="#nosotros">Nosotros</a>
                             <a class="nav-link" href="#servicios">Servicios</a>
                             <a class="nav-link" href="#marcas">Marcas</a>
                             <a class="nav-link" href="#productos">Productos</a>
                             <a class="nav-link" href="#alianzas">Alianzas</a>
-                            <a class="nav-link" href="#referencias"
-                                >Referencias</a
-                            >
+                            <a class="nav-link" href="#referencias">Referencias</a>
                             <a class="nav-link" href="#contacto">Contacto</a>
                         </div>
                     </div>
@@ -56,11 +48,7 @@
         </header>
 
         <main>
-            <section
-                id="carouselExampleControls"
-                class="carousel slide header-carousel mb-5"
-                data-bs-ride="carousel"
-            >
+            <section id="carouselExampleControls" class="carousel slide header-carousel mb-5" data-bs-ride="carousel">
                 <div class="carousel-indicators d-none d-lg-flex">
                     <button
                         type="button"
@@ -70,93 +58,51 @@
                         aria-current="true"
                         aria-label="Slide 1"
                     ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide-to="1"
-                        aria-label="Slide 2"
-                    ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide-to="2"
-                        aria-label="Slide 3"
-                    ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide-to="3"
-                        aria-label="Slide 4"
-                    ></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div id="carousel-header-img1" class="carousel-item active">
                         <div class="carousel-text-container">
-                            <p class="fs-2 fw-bold text-center carousel-text">
-                                Máquinas para corte, deformación y mecanizado de
-                                chapa
-                            </p>
+                            <p class="fw-bold text-center carousel-text">Máquinas para corte, deformación y mecanizado de chapa</p>
                         </div>
                     </div>
                     <div id="carousel-header-img2" class="carousel-item">
                         <div class="carousel-text-container">
-                            <p class="fs-2 fw-bold text-center carousel-text">
-                                Maquinas orientadas a la actividad de la
-                                metalmecánica
-                            </p>
+                            <p class="fw-bold text-center carousel-text">Maquinas orientadas a la actividad de la metalmecánica</p>
                         </div>
                     </div>
                     <div id="carousel-header-img3" class="carousel-item">
                         <div class="carousel-text-container">
-                            <p class="fs-2 fw-bold text-center carousel-text">
-                                Asesoramiento global en la selección del tipo de
-                                máquina, sistemas y tecnologías que mejor se
-                                adapte a su necesidad
+                            <p class="fw-bold text-center carousel-text">
+                                Asesoramiento global en la selección del tipo de máquina, sistemas y tecnologías que mejor se adapte a su necesidad
                             </p>
                         </div>
                     </div>
                     <div id="carousel-header-img4" class="carousel-item">
                         <div class="carousel-text-container">
-                            <p class="fs-2 fw-bold text-center carousel-text">
-                                Brindamos el servicio de puesta en marcha,
-                                capacitación, mantenimiento y post venta
+                            <p class="fw-bold text-center carousel-text">
+                                Brindamos el servicio de puesta en marcha, capacitación, mantenimiento y post venta
                             </p>
                         </div>
                     </div>
                 </div>
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev"
-                >
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true">
-                        <img
-                            class="carousel-arrow-left"
-                            src="./img/arrowl.png"
-                            alt="Carousel arrow left"
-                        />
+                        <img class="carousel-arrow-left" src="./img/arrowl.png" alt="Carousel arrow left" />
                     </span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next"
-                >
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true">
-                        <img
-                            class="carousel-arrow-right"
-                            src="./img/arrowr.png"
-                            alt="Carousel arrow right"
-                        />
+                        <img class="carousel-arrow-right" src="./img/arrowr.png" alt="Carousel arrow right" />
                     </span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </section>
 
-            <section id="nosotros" class="nosotros">
+            <section id="nosotros" class="nosotros mb-5">
                 <div class="nosotros-images">
                     <img src="./img/us/usr.png" alt="image-right" />
                     <img src="./img/us/usc.png" alt="image-center" />
@@ -166,139 +112,99 @@
                     <h2 class="title nosotros-title">Nosotros</h2>
                     <div class="line"></div>
                     <p>
-                        Con una trayectoria de 50 años, y acompañando en
-                        Argentina desde 1993 a las empresas Danobat, Mebusa,
-                        Adira y recientemente a TCI Cutting, ofrecemos máquinas
-                        de alta gama con tecnología en constante evolución,
-                        garantizando a nuestros clientes la solución más
-                        efectiva para potenciar su productividad y rentabilidad.
+                        Con una trayectoria de 50 años, y acompañando en Argentina desde 1993 a las empresas Danobat, Mebusa, Adira y recientemente a
+                        TCI Cutting, ofrecemos máquinas de alta gama con tecnología en constante evolución, garantizando a nuestros clientes la
+                        solución más efectiva para potenciar su productividad y rentabilidad.
                     </p>
                     <p>
-                        El compromiso con nuestros clientes, es asegurarle,
-                        confiabilidad, profesionalismo, honestidad, y calidad.
-                        Premisas indiscutibles en la elección de nuestros
-                        productos y servicios.
+                        El compromiso con nuestros clientes, es asegurarle, confiabilidad, profesionalismo, honestidad, y calidad. Premisas
+                        indiscutibles en la elección de nuestros productos y servicios.
                     </p>
                 </div>
             </section>
 
-            <section id="servicios" class="servicios mt-5 container">
-                <h2 class="title">Servicios</h2>
-                <div class="line mb-5 mb-md-4"></div>
+            <section id="servicios" class="servicios container">
+                <h2 class="title mb-1">Servicios</h2>
+                <div class="line mb-2"></div>
                 <div class="d-lg-flex">
-                    <div class="servicio p-lg-4 mb-5">
+                    <div class="servicio p-lg-5 mb-2">
                         <div class="servicios-img-container">
-                            <img
-                                src="./img/services/service1.png"
-                                alt="service1"
-                            />
+                            <img src="./img/services/service1.png" alt="service1" />
                         </div>
-                        <h3 class="subtitle fs-4 fw-bold">Maquinaria</h3>
-                        <p class="servicios-text">
-                            Ofrecemos maquinaria especializada para la industria
-                            metalmecanica. Trabajamos con reconocidas marcas de
-                            maquinas de corte, deformación y mecanizado de
-                            chapa. Nuestras marcas son <b>Danobat</b>,
-                            <b>Adíra</b> y <b>TCI Cutting</b>.
+                        <h2 class="subtitle my-1 mb-lg-3 fs-4">Maquinaria</h2>
+                        <p class="servicios-text mb-0">
+                            Ofrecemos maquinaria especializada para la industria metalmecanica. Trabajamos con reconocidas marcas de maquinas de
+                            corte, deformación y mecanizado de chapa. Nuestras marcas son <b>Danobat</b>, <b>Adíra</b> y <b>TCI Cutting</b>.
                         </p>
-                        <p class="servicios-text">
-                            Realizamos el servicio de puesta en marcha y
-                            nuestras marcas se encuentran presentes en
-                            Argentina, Brasil, Chile, Uruguay, Paraguay y USA.
+                        <p class="servicios-text mb-0">
+                            Realizamos el servicio de puesta en marcha y nuestras marcas se encuentran presentes en Argentina, Brasil, Chile, Uruguay,
+                            Paraguay y USA.
                         </p>
                     </div>
-                    <div class="servicio p-lg-4 mb-5">
+                    <div class="servicio p-lg-5 mb-3">
                         <div class="servicios-img-container">
-                            <img
-                                src="./img/services/service2.png"
-                                alt="service2"
-                            />
+                            <img src="./img/services/service2.png" alt="service2" />
                         </div>
-                        <h3 class="subtitle fs-4 fw-bold">
-                            Post-Venta y Reparaciones
-                        </h3>
-                        <p class="servicios-text">
-                            Nuestra empresa brinda en forma local el Servicio de
-                            Asistencia Técnica, puesta en marcha, capacitación y
-                            post venta contando para ello con personal técnico
-                            homologado en origen, manteniendo los protocolos
-                            dictados desde las propias fábricas de origen.
+                        <h2 class="subtitle my-1 mb-lg-3 fs-4">Post-Venta y Reparaciones</h3>
+                        <p class="servicios-text mb-0">
+                            Nuestra empresa brinda en forma local el Servicio de Asistencia Técnica, puesta en marcha, capacitación y post venta
+                            contando para ello con personal técnico homologado en origen, manteniendo los protocolos dictados desde las propias
+                            fábricas de origen.
                         </p>
                         <p class="servicios-text">
-                            Nuestro Servicio de Asistencia Técnica asegura una
-                            respuesta inmediata dentro de las 24/48 horas de
-                            recibida la solicitud del mismo.
+                            Nuestro Servicio de Asistencia Técnica asegura una respuesta inmediata dentro de las 24/48 horas de recibida la solicitud
+                            del mismo.
                         </p>
                     </div>
                 </div>
             </section>
 
-            <section id="marcas" class="marcas container pb-5 px-lg-5">
-                <h2 class="title">Marcas</h2>
-                <div class="line mb-3"></div>
-                <div class="d-lg-flex">
-                    <div class="card marca">
-                        <div class="marcas-img-container marcas-img-container1">
-                            <img src="./img/brands/brand1.png" alt="brand1" />
+            <section id="marcas" class="marcas pb-5 px-lg-5">
+                <div class='container'>
+                    <h2 class="title mb-1">Marcas</h2>
+                    <div class="line mb-2"></div>
+                    <div class="d-lg-flex">
+                        <div class="card">
+                            <div class="marcas-img-container marcas-img-container1">
+                                <img src="./img/brands/brand1.png" alt="brand1" />
+                            </div>
+                            <div class="card-body pt-0">
+                                <p class="card-text">
+                                    Desde su fundación en 1956 Adira se ha destacado por la innovación tecnológica constante en la fabricación de: Prensas
+                                    plegadoras hidráulicas, eléctricas, e hibridas, de control numérico, sincronizadas electrónicamente Cizallas
+                                    hidráulicas de corte oscilante o de ángulo variable. Líneas de producción robotizadas. Presentes en más de 60 países,
+                                    en Argentina se encuentra representada desde el año 2005 por nuestra empresa, brindando a todos nuestros clientes
+                                    asesoramiento comercial-técnico y servicio de Asistencia Técnica homologado en origen.
+                                </p>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text">
-                                Desde su fundación en 1956 Adira se ha destacado
-                                por la innovación tecnológica constante en la
-                                fabricación de: Prensas plegadoras hidráulicas,
-                                eléctricas, e hibridas, de control numérico,
-                                sincronizadas electrónicamente Cizallas
-                                hidráulicas de corte oscilante o de ángulo
-                                variable. Líneas de producción robotizadas.
-                                Presentes en más de 60 países, en Argentina se
-                                encuentra representada desde el año 2005 por
-                                nuestra empresa, brindando a todos nuestros
-                                clientes asesoramiento comercial-técnico y
-                                servicio de Asistencia Técnica homologado en
-                                origen.
-                            </p>
+                        <div class="card">
+                            <div class="marcas-img-container">
+                                <img src="./img/brands/brand2.png" alt="brand2" />
+                            </div>
+                            <div class="card-body pt-0">
+                                <p class="card-text">
+                                    Desde hace más de 30 años Danobat se ha destacado en el mercado Argentino por sus máquinas herramienta por deformación
+                                    y mecanizado de chapa. Punzonadoras de control numérico, Líneas combinadas de punzonadora con cizalla, Paneladoras
+                                    automáticas, Láser por corte de fibra, Líneas de laser para chapa en bobinas, Sistemas de almacenamiento, carga,
+                                    descarga automáticos y proyectos especiales de líneas combinadas. Actualmente nuestra empresa brinda el servicio de
+                                    Asistencia Técnica para toda su línea de modelos, asegurando a nuestros clientes el compromiso de calidad de Danobat.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card marca">
-                        <div class="marcas-img-container">
-                            <img src="./img/brands/brand2.png" alt="brand2" />
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">
-                                Desde hace más de 30 años Danobat se ha
-                                destacado en el mercado Argentino por sus
-                                máquinas herramienta por deformación y
-                                mecanizado de chapa. Punzonadoras de control
-                                numérico, Líneas combinadas de punzonadora con
-                                cizalla, Paneladoras automáticas, Láser por
-                                corte de fibra, Líneas de laser para chapa en
-                                bobinas, Sistemas de almacenamiento, carga,
-                                descarga automáticos y proyectos especiales de
-                                líneas combinadas. Actualmente nuestra empresa
-                                brinda el servicio de Asistencia Técnica para
-                                toda su línea de modelos, asegurando a nuestros
-                                clientes el compromiso de calidad de Danobat.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card marca">
-                        <div class="marcas-img-container">
-                            <img src="./img/brands/brand3.png" alt="brand3" />
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">
-                                Referente mundial en soluciones de corte
-                                industrial en láser y chorro de agua. Expertos
-                                en la automatización a medida de los procesos
-                                industriales. Fabrica y produce una amplia
-                                variedad de modelos de laser por corte de fibra,
-                                adaptados a las necesidades de cada cliente y
-                                equipados con el mejor software inteligente de
-                                gestión de la producción del mercado. Ahora en
-                                Argentina a través de nuestra empresa, brindamos
-                                un asesoramiento técnico ajustado a los
-                                requerimientos de nuestros clientes.
-                            </p>
+                        <div class="card">
+                            <div class="marcas-img-container">
+                                <img src="./img/brands/brand3.png" alt="brand3" />
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Referente mundial en soluciones de corte industrial en láser y chorro de agua. Expertos en la automatización a medida
+                                    de los procesos industriales. Fabrica y produce una amplia variedad de modelos de laser por corte de fibra, adaptados
+                                    a las necesidades de cada cliente y equipados con el mejor software inteligente de gestión de la producción del
+                                    mercado. Ahora en Argentina a través de nuestra empresa, brindamos un asesoramiento técnico ajustado a los
+                                    requerimientos de nuestros clientes.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -314,155 +220,93 @@
                     <div class="line"></div>
                     <div class="carousel-inner p-2">
                         <div class="carousel-item active">
-                            <div
-                                class="cards-container d-md-flex justify-content-lg-evenly"
-                            >
+                            <div class="cards-container d-md-flex justify-content-lg-evenly">
                                 <div class="card">
-                                    <img
-                                        src="./img/products/product1.png"
-                                        class="d-block w-100"
-                                        alt="GH Cizalla Hidráulica"
-                                    />
-                                    <h2 class="card-title">
-                                        GH Cizalla Hidráulica
-                                    </h2>
+                                    <img src="./img/products/product1.png" class="d-block w-100" alt="GH Cizalla Hidráulica" />
+                                    <h2 class="card-title">Guillotinas Hidráulicas</h2>
+                                    <h3 class='subtitle'>GH Cizalla Hidráulica.</h3>
                                     <div class="line"></div>
-                                    <p class="card-text">
-                                        Ángulo fijo. Cizalla hidráulica de corte
-                                        oscilante.
-                                    </p>
+                                    <p class="card-text">Ángulo fijo. Cizalla hidráulica de corte oscilante.</p>
                                 </div>
                                 <div class="card">
-                                    <img
-                                        src="./img/products/product2.png"
-                                        class="d-block w-100"
-                                        alt="VG Guillotina hidráulica"
-                                    />
-                                    <h2 class="card-title">
-                                        VG Guillotina hidráulica
-                                    </h2>
+                                    <img src="./img/products/product2.png" class="d-block w-100" alt="VG Guillotina hidráulica" />
+                                    <h2 class="card-title">Guillotinas Hidráulicas</h2>
                                     <div class="line"></div>
-                                    <p class="card-text">
-                                        Ángulo variable Guillotina hidráulica de
-                                        corte vertical y ángulo variable.
-                                    </p>
+                                    <h3 class='subtitle'>VG Guillotina Hidráulica.</h3>
+                                    <p class="card-text">Ángulo variable Guillotina hidráulica de corte vertical y ángulo variable.</p>
                                 </div>
                                 <div class="card">
-                                    <img
-                                        src="./img/products/product3.png"
-                                        class="d-block w-100"
-                                        alt="PA / PA PLUS"
-                                    />
-                                    <h2 class="card-title">PA / PA PLUS</h2>
+                                    <img src="./img/products/product3.png" class="d-block w-100" alt="PA / PA PLUS" />
+                                    <h2 class="card-title">Prensas Plegadoras</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>PA / PA Plus.</h3>
                                     <p class="card-text">
-                                        Máquina hidráulica, flexible y de
-                                        elevada precisión que constituye una
-                                        excelente opción para una gran variedad
+                                        Máquina hidráulica, flexible y de elevada precisión que constituye una excelente opción para una gran variedad
                                         de industrias.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div
-                                class="cards-container d-md-flex justify-content-lg-evenly"
-                            >
+                            <div class="cards-container d-md-flex justify-content-lg-evenly">
                                 <div class="card">
                                     <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product4.png"
-                                            class="d-block w-100"
-                                            alt="PF Press Fast Híbrida"
-                                        />
+                                        <img src="./img/products/product4.png" class="d-block w-100" alt="PF Press Fast Híbrida" />
                                     </div>
-                                    <h2 class="card-title">
-                                        PF Press Fast Híbrida
-                                    </h2>
+                                    <h2 class="card-title">Prensas Plegadoras</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>PF Press Fast Híbrida.</h3>
                                     <p class="card-text">
-                                        Plegadora electrohidráulica (híbrida),
-                                        con rendimientos, velocidades y
-                                        capacidad de producción elevados.
+                                        Plegadora electrohidráulica (híbrida), con rendimientos, velocidades y capacidad de producción elevados.
                                     </p>
                                 </div>
                                 <div class="card">
                                     <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product5.png"
-                                            class="d-block w-100"
-                                            alt="PH Press Heavy-Duty"
-                                        />
+                                        <img src="./img/products/product5.png" class="d-block w-100" alt="PH Press Heavy-Duty" />
                                     </div>
-                                    <h2 class="card-title">
-                                        PH Press Heavy-Duty
-                                    </h2>
+                                    <h2 class="card-title">Prensas Plegadoras</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>PH Press Heavy-Duty.</h3>
                                     <p class="card-text">
-                                        La solución ideal para trabajos de serie
-                                        pesada. Máquina totalmente
-                                        personalizable y disponible en varias
+                                        La solución ideal para trabajos de serie pesada. Máquina totalmente personalizable y disponible en varias
                                         configuraciones.
                                     </p>
                                 </div>
                                 <div class="card">
                                     <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product6.png"
-                                            class="d-block w-100"
-                                            alt="BB Blue Bender 100% Electrica"
-                                        />
+                                        <img src="./img/products/product6.png" class="d-block w-100" alt="BB Blue Bender 100% Electrica" />
                                     </div>
-                                    <h2 class="card-title">
-                                        BB Blue Bender 100% Electrica
-                                    </h2>
+                                    <h2 class="card-title">Prensas Plegadoras</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>BB Blue Bender 100% Eléctrica.</h3>
                                     <p class="card-text">
-                                        Equipada con Sistema Blue Drive, que
-                                        permite obtener mayor productividad y
-                                        disfrutar de un mantenimiento más
-                                        sencillo, además del elevado ahorro de
-                                        enrgía.
+                                        Equipada con Sistema Blue Drive, que permite obtener mayor productividad y disfrutar de un mantenimiento más
+                                        sencillo, además del elevado ahorro de enrgía.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div
-                                class="cards-container d-md-flex justify-content-lg-evenly"
-                            >
+                            <div class="cards-container d-md-flex justify-content-lg-evenly">
                                 <div class="card">
                                     <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product7.png"
-                                            class="d-block w-100"
-                                            alt="Célula de plegado robotizada"
-                                        />
+                                        <img src="./img/products/product7.png" class="d-block w-100" alt="Célula de plegado robotizada" />
                                     </div>
-                                    <h2 class="card-title">
-                                        Célula de plegado robotizada
-                                    </h2>
+                                    <h2 class="card-title">Prensas plegadoras</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>Célula de plegado robotizada</h3>
                                 </div>
                                 <div class="card">
                                     <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product8.png"
-                                            class="d-block w-100"
-                                            alt="Smartline® Nuestra máquina más flexible"
-                                        />
+                                        <img src="./img/products/product8.png" class="d-block w-100" alt="Smartline® Nuestra máquina más flexible" />
                                     </div>
-                                    <h2 class="card-title">
-                                        Smartline® Nuestra máquina más flexible
-                                    </h2>
+                                    <h2 class="card-title">Láser por corte de Fibra</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>Smartline® Nuestra máquina más flexible</h3>
                                     <p class="card-text">
-                                        El sistema de corte láser fibra 2D más
-                                        flexible y accesible del mercado
-                                        especialmente diseñada para clientes que
-                                        buscan la máxima productividad en
-                                        procesos productivos cortos, rápidos y
-                                        altamente cambiantes en corte de chapa.
+                                        El sistema de corte láser fibra 2D más flexible y accesible del mercado especialmente diseñada para clientes
+                                        que buscan la máxima productividad en procesos productivos cortos, rápidos y altamente cambiantes en corte de
+                                        chapa.
                                     </p>
                                 </div>
                                 <div class="card">
@@ -473,40 +317,28 @@
                                             alt="Speedline® Nuestra máquina de grandes formatos"
                                         />
                                     </div>
-                                    <h2 class="card-title">
-                                        Speedline® Nuestra máquina de grandes
-                                        formatos
-                                    </h2>
+                                    <h2 class="card-title">Láser por corte de Fibra</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>Speedline® Nuestra máquina de grandes formatos</h3>
                                     <p class="card-text">
-                                        La serie Speedline está especialmente
-                                        desarrollada para ofrecer soluciones de
-                                        corte láser para grandes formatos.
+                                        La serie Speedline está especialmente desarrollada para ofrecer soluciones de corte láser para grandes
+                                        formatos.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div
-                                class="cards-container d-md-flex justify-content-lg-evenly"
-                            >
+                            <div class="cards-container d-md-flex justify-content-lg-evenly">
                                 <div class="card">
                                     <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product10.png"
-                                            class="d-block w-100"
-                                            alt="Automatización Corte Láser 2D"
-                                        />
+                                        <img src="./img/products/product10.png" class="d-block w-100" alt="Automatización Corte Láser 2D" />
                                     </div>
-                                    <h2 class="card-title">
-                                        Automatización Corte Láser 2D
-                                    </h2>
+                                    <h2 class="card-title">Láser por corte de Fibra</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>Automatización Corte Láser 2D</h3>
                                     <p class="card-text">
-                                        Las máquinas de corte láser 2D de TCI
-                                        Cutting pueden integrar soluciones de
-                                        automatización inteligente a medida y
-                                        escalables.
+                                        Las máquinas de corte láser 2D de TCI Cutting pueden integrar soluciones de automatización inteligente a
+                                        medida y escalables.
                                     </p>
                                 </div>
                                 <div class="card">
@@ -517,277 +349,145 @@
                                             alt="Dynamicline® Nuestra máquina más productiva"
                                         />
                                     </div>
-                                    <h2 class="card-title">
-                                        Dynamicline® Nuestra máquina más
-                                        productiva
-                                    </h2>
+                                    <h2 class="card-title">Láser por corte de Fibra</h2>
                                     <div class="line"></div>
+                                    <h3 class='subtitle'>Dynamicline® Nuestra máquina más productiva</h3>
                                     <p class="card-text">
-                                        Productividad en estado puro para
-                                        grandes series y volúmenes, sin perder
-                                        de vista la eficiencia eléctrica y de
+                                        Productividad en estado puro para grandes series y volúmenes, sin perder de vista la eficiencia eléctrica y de
                                         producción.
                                     </p>
                                 </div>
                                 <div class="card">
                                     <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product12.png"
-                                            class="d-block w-100"
-                                            alt="Punzonadoras"
-                                        />
+                                        <img src="./img/products/product5.png" class="d-block w-100" alt="PH Press Heavy-Duty" />
                                     </div>
-                                    <h2 class="card-title">Punzonadoras</h2>
+                                    <h2 class="card-title">Prensas Plegadoras</h2>
                                     <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div
-                                class="cards-container d-md-flex justify-content-lg-evenly"
-                            >
-                                <div class="card">
-                                    <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product5.png"
-                                            class="d-block w-100"
-                                            alt="PH Press Heavy-Duty"
-                                        />
-                                    </div>
-                                    <h2 class="card-title">
-                                        PH Press Heavy-Duty
-                                    </h2>
-                                    <div class="line"></div>
+                                    <h3 class='subtitle'>PH Press Heavy-Duty.</h3>
                                     <p class="card-text">
-                                        La solución ideal para trabajos de serie
-                                        pesada. Máquina totalmente
-                                        personalizable y disponible en varias
+                                        La solución ideal para trabajos de serie pesada. Máquina totalmente personalizable y disponible en varias
                                         configuraciones.
                                     </p>
-                                </div>
-                                <div class="card">
-                                    <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product13.png"
-                                            class="d-block w-100"
-                                            alt="Corte por láser"
-                                        />
-                                    </div>
-                                    <h2 class="card-title">Corte por láser</h2>
-                                    <div class="line"></div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-img-container">
-                                        <img
-                                            src="./img/products/product14.png"
-                                            class="d-block w-100"
-                                            alt="Máquinas combinadas"
-                                        />
-                                    </div>
-                                    <h2 class="card-title">
-                                        Máquinas combinadas
-                                    </h2>
-                                    <div class="line"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#productos-carousel1"
-                        data-bs-slide="prev"
-                    >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        >
-                            <img
-                                class="carousel-arrow-left"
-                                src="./img/arrowl.png"
-                                alt="Carousel arrow left"
-                            />
+                    <button class="carousel-control-prev" type="button" data-bs-target="#productos-carousel1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                            <img class="carousel-arrow-left" src="./img/arrowl.png" alt="Carousel arrow left" />
                         </span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#productos-carousel1"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        >
-                            <img
-                                class="carousel-arrow-right"
-                                src="./img/arrowr.png"
-                                alt="Carousel arrow right"
-                            />
+                    <button class="carousel-control-next" type="button" data-bs-target="#productos-carousel1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true">
+                            <img class="carousel-arrow-right" src="./img/arrowr.png" alt="Carousel arrow right" />
                         </span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </section>
 
-                <section
-                    id="productos-carousel2"
-                    class="carousel slide carousel-dark d-md-none productos-carousel"
-                    data-bs-ride="carousel"
-                >
+                <section id="productos-carousel2" class="carousel slide carousel-dark d-md-none productos-carousel" data-bs-ride="carousel">
                     <h2 class="title">Productos</h2>
                     <div class="line mb-0"></div>
                     <div class="carousel-inner p-4">
                         <div class="carousel-item active">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product1.png"
-                                        class="d-block w-100"
-                                        alt="GH Cizalla Hidráulica"
-                                    />
+                                    <img src="./img/products/product1.png" class="d-block w-100" alt="GH Cizalla Hidráulica" />
                                 </div>
-                                <h2 class="card-title">
-                                    GH Cizalla Hidráulica
-                                </h2>
+                                <h2 class="card-title">Guillotinas Hidráulicas</h2>
                                 <div class="line"></div>
+                                <h3 class='subtitle'>GH Cizalla Hidráulica</h3>
+                                <p class="card-text">Ángulo fijo. Cizalla hidráulica de corte oscilante.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="./img/products/product2.png" class="d-block w-100" alt="VG Guillotina hidráulica" />
+                                </div>
+                                <h2 class="card-title">Guillotinas Hidráulicas</h2>
+                                <div class="line"></div>
+                                <h3 class='subtitle'>VG Guillotina hidráulica</h3>
+                                <p class="card-text">Ángulo variable Guillotina hidráulica de corte vertical y ángulo variable.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="./img/products/product3.png" class="d-block w-100" alt="PA / PA PLUS" />
+                                </div>
+                                <h2 class="card-title">Prensas Plegadoras</h2>
+                                <div class="line"></div>
+                                <h3 class='subtitle'>PA / PA PLUS</h3>
                                 <p class="card-text">
-                                    Ángulo fijo. Cizalla hidráulica de corte
-                                    oscilante.
+                                    Máquina hidráulica, flexible y de elevada precisión que constituye una excelente opción para una gran variedad de
+                                    industrias.
                                 </p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product2.png"
-                                        class="d-block w-100"
-                                        alt="VG Guillotina hidráulica"
-                                    />
+                                    <img src="./img/products/product4.png" class="d-block w-100" alt="PF Press Fast Híbrida" />
                                 </div>
-                                <h2 class="card-title">
-                                    VG Guillotina hidráulica
-                                </h2>
+                                <h2 class="card-title">Prensas Plegadoras</h2>
                                 <div class="line"></div>
+                                <h3 class='subtitle'>PF Press Fast Híbrida</h3>
                                 <p class="card-text">
-                                    Ángulo variable Guillotina hidráulica de
-                                    corte vertical y ángulo variable.
+                                    Plegadora electrohidráulica (híbrida), con rendimientos, velocidades y capacidad de producción elevados.
                                 </p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product3.png"
-                                        class="d-block w-100"
-                                        alt="PA / PA PLUS"
-                                    />
+                                    <img src="./img/products/product5.png" class="d-block w-100" alt="PH Press Heavy-Duty" />
                                 </div>
-                                <h2 class="card-title">PA / PA PLUS</h2>
+                                <h2 class="card-title">Prensas Plegadoras</h2>
                                 <div class="line"></div>
+                                <h3 class='subtitle'>PH Press Heavy-Duty</h3>
                                 <p class="card-text">
-                                    Máquina hidráulica, flexible y de elevada
-                                    precisión que constituye una excelente
-                                    opción para una gran variedad de industrias.
+                                    La solución ideal para trabajos de serie pesada. Máquina totalmente personalizable y disponible en varias
+                                    configuraciones.
                                 </p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product4.png"
-                                        class="d-block w-100"
-                                        alt="PF Press Fast Híbrida"
-                                    />
+                                    <img src="./img/products/product6.png" class="d-block w-100" alt="BB Blue Bender 100% Electrica" />
                                 </div>
-                                <h2 class="card-title">
-                                    PF Press Fast Híbrida
-                                </h2>
+                                <h2 class="card-title">Prensas Plegadoras</h2>
                                 <div class="line"></div>
+                                <h3 class='subtitle'>BB Blue Bender 100% Electrica</h3>
                                 <p class="card-text">
-                                    Plegadora electrohidráulica (híbrida), con
-                                    rendimientos, velocidades y capacidad de
-                                    producción elevados.
+                                    Equipada con Sistema Blue Drive, que permite obtener mayor productividad y disfrutar de un mantenimiento más
+                                    sencillo, además del elevado ahorro de enrgía.
                                 </p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product5.png"
-                                        class="d-block w-100"
-                                        alt="PH Press Heavy-Duty"
-                                    />
+                                    <img src="./img/products/product7.png" class="d-block w-100" alt="Célula de plegado robotizada" />
                                 </div>
-                                <h2 class="card-title">PH Press Heavy-Duty</h2>
+                                <h2 class="card-title">Prensas Plegadoras</h2>
                                 <div class="line"></div>
-                                <p class="card-text">
-                                    La solución ideal para trabajos de serie
-                                    pesada. Máquina totalmente personalizable y
-                                    disponible en varias configuraciones.
-                                </p>
+                                <h3 class='subtitle'>Célula de plegado robotizada</h3>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product6.png"
-                                        class="d-block w-100"
-                                        alt="BB Blue Bender 100% Electrica"
-                                    />
+                                    <img src="./img/products/product8.png" class="d-block w-100" alt="Smartline® Nuestra máquina más flexible" />
                                 </div>
-                                <h2 class="card-title">
-                                    BB Blue Bender 100% Electrica
-                                </h2>
+                                <h2 class="card-title">Láser por corte de Fibra</h2>
                                 <div class="line"></div>
+                                <h3 class='subtitle'>Smartline® Nuestra máquina más flexible</h3>
                                 <p class="card-text">
-                                    Equipada con Sistema Blue Drive, que permite
-                                    obtener mayor productividad y disfrutar de
-                                    un mantenimiento más sencillo, además del
-                                    elevado ahorro de enrgía.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                                <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product7.png"
-                                        class="d-block w-100"
-                                        alt="Célula de plegado robotizada"
-                                    />
-                                </div>
-                                <h2 class="card-title">
-                                    Célula de plegado robotizada
-                                </h2>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                                <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product8.png"
-                                        class="d-block w-100"
-                                        alt="Smartline® Nuestra máquina más flexible"
-                                    />
-                                </div>
-                                <h2 class="card-title">
-                                    Smartline® Nuestra máquina más flexible
-                                </h2>
-                                <div class="line"></div>
-                                <p class="card-text">
-                                    El sistema de corte láser fibra 2D más
-                                    flexible y accesible del mercado
-                                    especialmente diseñada para clientes que
-                                    buscan la máxima productividad en procesos
-                                    productivos cortos, rápidos y altamente
-                                    cambiantes en corte de chapa.
+                                    El sistema de corte láser fibra 2D más flexible y accesible del mercado especialmente diseñada para clientes que
+                                    buscan la máxima productividad en procesos productivos cortos, rápidos y altamente cambiantes en corte de chapa.
                                 </p>
                             </div>
                         </div>
@@ -800,35 +500,24 @@
                                         alt="Speedline® Nuestra máquina de grandes formatos"
                                     />
                                 </div>
-                                <h2 class="card-title">
-                                    Speedline® Nuestra máquina de grandes
-                                    formatos
-                                </h2>
+                                <h2 class="card-title">Láser por corte de Fibra</h2>
                                 <div class="line"></div>
+                                <h3 class='subtitle'>Speedline® Nuestra máquina de grandes formatos</h3>
                                 <p class="card-text">
-                                    La serie Speedline está especialmente
-                                    desarrollada para ofrecer soluciones de
-                                    corte láser para grandes formatos.
+                                    La serie Speedline está especialmente desarrollada para ofrecer soluciones de corte láser para grandes formatos.
                                 </p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product10.png"
-                                        class="d-block w-100"
-                                        alt="Automatización Corte Láser 2D"
-                                    />
+                                    <img src="./img/products/product10.png" class="d-block w-100" alt="Automatización Corte Láser 2D" />
                                 </div>
-                                <h2 class="card-title">
-                                    Automatización Corte Láser 2D
-                                </h2>
+                                <h2 class="card-title">Láser por corte de Fibra</h2>
                                 <div class="line"></div>
+                                <h3 class='subtitle'>Automatización Corte Láser 2D</h3>
                                 <p class="card-text">
-                                    Las máquinas de corte láser 2D de TCI
-                                    Cutting pueden integrar soluciones de
-                                    automatización inteligente a medida y
+                                    Las máquinas de corte láser 2D de TCI Cutting pueden integrar soluciones de automatización inteligente a medida y
                                     escalables.
                                 </p>
                             </div>
@@ -836,96 +525,27 @@
                         <div class="carousel-item">
                             <div class="card">
                                 <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product11.png"
-                                        class="d-block w-100"
-                                        alt="Dynamicline® Nuestra máquina más productiva"
-                                    />
+                                    <img src="./img/products/product11.png" class="d-block w-100" alt="Dynamicline® Nuestra máquina más productiva" />
                                 </div>
-                                <h2 class="card-title">
-                                    Dynamicline® Nuestra máquina más productiva
-                                </h2>
+                                <h2 class="card-title">Láser por corte de Fibra</h2>
                                 <div class="line"></div>
+                                <h3 class='subtitle'>Dynamicline® Nuestra máquina más productiva</h3>
                                 <p class="card-text">
-                                    Productividad en estado puro para grandes
-                                    series y volúmenes, sin perder de vista la
-                                    eficiencia eléctrica y de producción.
+                                    Productividad en estado puro para grandes series y volúmenes, sin perder de vista la eficiencia eléctrica y de
+                                    producción.
                                 </p>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                                <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product12.png"
-                                        class="d-block w-100"
-                                        alt="Punzonadoras"
-                                    />
-                                </div>
-                                <h2 class="card-title">Punzonadoras</h2>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                                <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product13.png"
-                                        class="d-block w-100"
-                                        alt="Corte por láser"
-                                    />
-                                </div>
-                                <h2 class="card-title">Corte por láser</h2>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                                <div class="card-img-container">
-                                    <img
-                                        src="./img/products/product14.png"
-                                        class="d-block w-100"
-                                        alt="Máquinas combinadas"
-                                    />
-                                </div>
-                                <h2 class="card-title">Máquinas combinadas</h2>
-                                <div class="line"></div>
-                            </div>
-                        </div>
                     </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#productos-carousel2"
-                        data-bs-slide="prev"
-                    >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        >
-                            <img
-                                class="carousel-arrow-left"
-                                src="./img/arrowl.png"
-                                alt="Carousel arrow left"
-                            />
+                    <button class="carousel-control-prev" type="button" data-bs-target="#productos-carousel2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                            <img class="carousel-arrow-left" src="./img/arrowl.png" alt="Carousel arrow left" />
                         </span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#productos-carousel2"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        >
-                            <img
-                                class="carousel-arrow-right"
-                                src="./img/arrowr.png"
-                                alt="Carousel arrow right"
-                            />
+                    <button class="carousel-control-next" type="button" data-bs-target="#productos-carousel2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true">
+                            <img class="carousel-arrow-right" src="./img/arrowr.png" alt="Carousel arrow right" />
                         </span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -935,61 +555,43 @@
             <section id="alianzas" class="alianzas my-5 p-4 d-flex flex-column">
                 <h2 class="title px-3">Alianzas comerciales</h2>
                 <div class="line mb-5"></div>
-                <div
-                    class="card-group d-md-flex alianzas-container container my-0"
-                >
-                    <article
-                        class="card flex-column align-items-center py-2 py-md-0 border-0"
-                    >
+                <div class="card-group d-md-flex alianzas-container container my-0">
+                    <article class="card flex-column align-items-center py-2 py-md-0 border-0">
                         <div class="card-img-top">
                             <img src="./img/alli/alli1.png" alt="alianza1" />
                         </div>
                         <div class="card-body">
-                            <p class="card-text text-center">
-                                Líneas de perfilado automáticas
-                            </p>
+                            <p class="card-text text-center">Líneas de perfilado automáticas</p>
                         </div>
                     </article>
-                    <article
-                        class="card flex-column align-items-center py-2 py-md-0 border-0"
-                    >
+                    <article class="card flex-column align-items-center py-2 py-md-0 border-0">
                         <div class="card-img-top">
                             <img src="./img/alli/alli2.png" alt="alianza2" />
                         </div>
                         <div class="card-body">
-                            <p class="card-text text-center">
-                                Proyectos especiales
-                            </p>
+                            <p class="card-text text-center">Proyectos especiales</p>
                         </div>
                     </article>
-                    <article
-                        class="card flex-column align-items-center py-2 py-md-0 border-0"
-                    >
+                    <article class="card flex-column align-items-center py-2 py-md-0 border-0">
                         <div class="card-img-top">
                             <img src="./img/alli/alli3.png" alt="alianza3" />
                         </div>
                         <div class="card-body">
-                            <p class="card-text text-center">
-                                Controles numéricos
-                            </p>
+                            <p class="card-text text-center">Controles numéricos</p>
                         </div>
                     </article>
-                    <article
-                        class="card flex-column align-items-center py-2 py-md-0 border-0"
-                    >
+                    <article class="card flex-column align-items-center py-2 py-md-0 border-0">
                         <div class="card-img-top">
                             <img src="./img/alli/alli4.png" alt="alianza4" />
                         </div>
                         <div class="card-body">
-                            <p class="card-text text-center">
-                                Punzones y matrices para punzonadoras
-                            </p>
+                            <p class="card-text text-center">Punzones y matrices para punzonadoras</p>
                         </div>
                     </article>
                 </div>
             </section>
 
-            <section id="referencias" class="referencias container m-auto p-4">
+            <section id="referencias" class="referencias container mb-5 m-auto p-4">
                 <h2 class="title">Referencias</h2>
                 <div class="line"></div>
                 <div class="d-lg-flex card-group">
@@ -999,11 +601,8 @@
                         </div>
                         <div class="card-body">
                             <p class="card-text">
-                                Sergio Bronstein se ha desempeñado como nuestro
-                                delegado comercial desde 1993, su conocimiento y
-                                experiencia en la industria metal mecánica han
-                                resultado altamente positivo para nuestra
-                                empresa, logrando fidelizar a nuestros clientes
+                                Sergio Bronstein se ha desempeñado como nuestro delegado comercial desde 1993, su conocimiento y experiencia en la
+                                industria metal mecánica han resultado altamente positivo para nuestra empresa, logrando fidelizar a nuestros clientes
                                 y concretar negocios seguros y eficientes.
                             </p>
                         </div>
@@ -1019,14 +618,9 @@
                         </div>
                         <div class="card-body">
                             <p class="card-text">
-                                Hemos elegido a Sergio Bronstein como nuestro
-                                agente comercial para los mercados de Argentina,
-                                Uruguay y Paraguay, por las referencias
-                                recibidas en cuanto a su honestidad profesional,
-                                experiencia y conocimiento. Confiamos en su
-                                capacidad y eficiencia para un excelente
-                                posicionamiento de nuestra marca y la obtención
-                                de los mejores resultados.
+                                Hemos elegido a Sergio Bronstein como nuestro agente comercial para los mercados de Argentina, Uruguay y Paraguay, por
+                                las referencias recibidas en cuanto a su honestidad profesional, experiencia y conocimiento. Confiamos en su capacidad
+                                y eficiencia para un excelente posicionamiento de nuestra marca y la obtención de los mejores resultados.
                             </p>
                         </div>
                         <h5 class="card-title">Director comercial</h5>
@@ -1041,13 +635,9 @@
                         </div>
                         <div class="card-body">
                             <p class="card-text">
-                                Sergio Bronstein viene trabajando junto a
-                                nuestra empresa desde el año 2005 y su labor
-                                comercial ha sido siempre positiva y muy
-                                reconocida por su honestidad y profesionalismo.
-                                Nuestra empresa está muy satisfecha de contar
-                                con el cómo nuestro comercial para Argentinay
-                                Uruguay.
+                                Sergio Bronstein viene trabajando junto a nuestra empresa desde el año 2005 y su labor comercial ha sido siempre
+                                positiva y muy reconocida por su honestidad y profesionalismo. Nuestra empresa está muy satisfecha de contar con el
+                                cómo nuestro comercial para Argentinay Uruguay.
                             </p>
                         </div>
                         <h5 class="card-title">Director Comercial</h5>
@@ -1059,80 +649,37 @@
                 </div>
             </section>
 
-            <section
-                id="contacto"
-                class="contactanos d-flex flex-column justify-content-center py-4"
-            >
+            <section id="contacto" class="contactanos d-flex flex-column pt-4 pb-2">
                 <h2 class="title">Contactanos</h2>
                 <div class="line"></div>
-                <form
-                    id="form"
-                    class="container px-4 pb-4"
-                    action="https://formsubmit.co/Sergio.Bronstein@gmail.com"
-                    method="POST"
-                >
+                <form id="form" class="container px-4 pb-4" action="https://formsubmit.co/Sergio.Bronstein@gmail.com" method="POST">
                     <div class="row offset-md-2">
                         <div class="col-md-5 p-2">
-                            <input
-                                type="text"
-                                name="Nombre"
-                                placeholder="Nombre"
-                                required
-                            />
+                            <input type="text" name="Nombre" placeholder="Nombre" required />
                         </div>
                         <div class="col-md-5 p-2">
-                            <input
-                                type="text"
-                                name="Apellido"
-                                placeholder="Apellido"
-                                required
-                            />
+                            <input type="text" name="Apellido" placeholder="Apellido" required />
                         </div>
                     </div>
                     <div class="row offset-md-2">
                         <div class="col-md-5 p-2">
-                            <input
-                                type="email"
-                                name="Email"
-                                placeholder="Email"
-                                required
-                            />
+                            <input type="email" name="Email" placeholder="Email" required />
                         </div>
                         <div class="col-md-5 p-2">
-                            <input
-                                type="tel"
-                                name="Teléfono"
-                                placeholder="Teléfono"
-                                required
-                            />
+                            <input type="tel" name="Teléfono" placeholder="Teléfono" required />
                         </div>
                     </div>
                     <div class="row offset-md-2">
                         <div class="col-md-5 p-2">
-                            <input
-                                type="text"
-                                name="País"
-                                placeholder="País"
-                                required
-                            />
+                            <input type="text" name="País" placeholder="País" required />
                         </div>
                         <div class="col-md-5 p-2">
-                            <input
-                                type="text"
-                                name="Ciudad"
-                                placeholder="Ciudad"
-                                required
-                            />
+                            <input type="text" name="Ciudad" placeholder="Ciudad" required />
                         </div>
                     </div>
                     <div class="row offset-md-2 p-2">
                         <div class="col-md-10 p-0">
-                            <textarea
-                                rows="5"
-                                name="Mensaje"
-                                placeholder="Consulta"
-                                required
-                            ></textarea>
+                            <textarea rows="5" name="Mensaje" placeholder="Consulta" required></textarea>
                         </div>
                     </div>
                     <div>
@@ -1141,49 +688,47 @@
                 </form>
             </section>
 
+            <p class="p-4 fs-4 text-center fw-bold">
+                Consúltanos por Maquinas de segunda mano y otras novedades
+            </p>
+
             <section class="nuestras-ventajas">
                 <h2 class="title ventajas-title">Nuestras Ventajas</h2>
                 <div class="line"></div>
-                <div
-                    class="d-flex flex-column align-items-center flex-lg-row justify-content-lg-center flex-lg-wrap container ventajas-container"
-                >
-                    <p class="ventaja">
-                        <span class="d-lg-none bar">|</span>Respuesta telefónica
-                        inmediata
-                    </p>
-                    <p class="ventaja">
-                        <span class="bar">|</span>Servicio de asistencia técnica
-                        en todo el País
-                    </p>
-                    <p class="ventaja">
-                        <span class="bar">|</span>Trato personal
-                    </p>
-                    <p class="ventaja">
-                        <span class="bar">|</span>Tele servicio desde fábrica
-                    </p>
-                    <p class="ventaja">
-                        <span class="bar">|</span>Atención rápida dentro de las
-                        24/48 hs
-                    </p>
+                <div class="d-flex flex-column align-items-center flex-lg-row justify-content-lg-center flex-lg-wrap container ventajas-container">
+                    <p class="ventaja"><span class="d-lg-none bar">|</span>Respuesta telefónica inmediata</p>
+                    <p class="ventaja"><span class="bar">|</span>Servicio de asistencia técnica en todo el País</p>
+                    <p class="ventaja"><span class="bar">|</span>Trato personal</p>
+                    <p class="ventaja"><span class="bar">|</span>Tele servicio desde fábrica</p>
+                    <p class="ventaja"><span class="bar">|</span>Atención rápida dentro de las 24/48 hs</p>
                 </div>
             </section>
         </main>
 
-        <h2
-            id="title-above-footer"
-            class="title p-4 d-flex align-items-center justify-content-center"
-        >
-            Consúltanos por Maquinas de segunda mano y otras novedades.
-        </h2>
-
-        <footer class="d-md-flex justify-content-md-center gap-md-4 footer">
-            <div>
-                <img src="./img/footer/mail.png" alt="mail" />
-                <span>Mail: <b>Sergio.Bronstein@gmail.com</b></span>
+        <footer class="d-flex flex-column align-items-center justify-content-center flex-lg-row justify-content-md-center align-items-md-center gap-md-4 footer">
+            <div class='footer-div'>
+                <div class='footer-container-img mx-2'>
+                    <img src="./img/footer/mail.png" alt="mail" />
+                </div>
+                <div class='footer-container-p'>
+                    <p class='mb-0'>Mail: <span class='mx-2'>Sergio.Bronstein@gmail.com</span></p>
+                </div>
             </div>
-            <div>
-                <img src="./img/footer/phone.png" alt="phone" />
-                <span>Contacto: <b>+54.11.4083.5880</b></span>
+            <div class='footer-div'>
+                <div class='footer-container-img mx-2'>
+                    <img src="./img/footer/phone.png" alt="phone" />
+                </div>
+                <div class='footer-container-p'>
+                    <p class='mb-0'>Contacto: <span class='mx-2'>+54.11.4083.5880</span></p>
+                </div>
+            </div>
+            <div class='footer-div'>
+                <div class='footer-container-img mx-2'>
+                    <img src="./img/footer/whatsapp.png" alt="whatsapp" />
+                </div>
+                <div class='footer-container-p'>
+                    <p class='mb-0'>Whatsapp: <span class='mx-2'>+54.11.4083.5880</span></p>
+                </div>
             </div>
         </footer>
 
