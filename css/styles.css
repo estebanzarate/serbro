@@ -358,8 +358,6 @@ body {
 	padding: 1rem;
 	border: none;
 	border-radius: unset;
-	text-decoration: none;
-	color: var(--blackColor);
 }
 
 .productos-carousel .card-title,
@@ -378,6 +376,8 @@ body {
 #productos-carousel2 .carousel-item .card,
 #productos-carousel1 .carousel-item .card {
 	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+	text-decoration: none;
+	color: var(--blackColor);
 }
 
 #productos-carousel2 .carousel-item .card {
