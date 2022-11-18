@@ -601,7 +601,7 @@ input[type='submit'] {
 	display: flex;
 }
 
-.footer-container-p span {
+.footer-container-p a {
 	color: #fff;
 	font-weight: 600;
 }
